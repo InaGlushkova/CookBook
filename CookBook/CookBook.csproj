@@ -84,9 +84,7 @@
     <Compile Include="Helpers\BoolToVisConverter.cs" />
     <Compile Include="Helpers\Converters.cs" />
     <Compile Include="Helpers\DialogCloser.cs" />
-    <Compile Include="Helpers\IClosableViewModel.cs" />
     <Compile Include="Helpers\MultiCommandConverter.cs" />
-    <Compile Include="Helpers\PathConverter.cs" />
     <Compile Include="Model\Book.cs" />
     <Compile Include="Model\BookContext.cs" />
     <Compile Include="Model\Recipe.cs" />
@@ -98,12 +96,11 @@
       <DependentUpon>CookBookModel.tt</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\AddNewRecepieViewModel.cs" />
-    <Compile Include="ViewModel\DelegateCommand.cs" />
+    <Compile Include="Helpers\DelegateCommand.cs" />
     <Compile Include="ViewModel\RecepieViewModel.cs" />
     <Compile Include="ViewModel\RegisterViewModel.cs" />
     <Compile Include="ViewModel\SearchViewModel.cs" />
     <Compile Include="ViewModel\LoginRegisterViewModel.cs" />
-    <Compile Include="ViewModel\ObservableObject.cs" />
     <Compile Include="Helpers\RelayCommand.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
     <Compile Include="View\AddNewRecepieView.xaml.cs">

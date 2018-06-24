@@ -8,6 +8,7 @@
         mc:Ignorable="d" WindowStyle="None"
         Title="EditRecipeView" Height="500" Width="700"
         helpers:DialogCloser.DialogResult="{Binding CloseWindowFlag}">
+    
     <Grid Margin="5">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>

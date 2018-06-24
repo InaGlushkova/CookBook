@@ -69,6 +69,7 @@ namespace CookBook.ViewModel
                 Recipes.Add(_recipeList[i].RecipeName.ToString());
             }
         }
+
         private ObservableCollection<string> RealTimeSearch(string SearchItem)
         {
             Recipes.Clear();
@@ -80,6 +81,7 @@ namespace CookBook.ViewModel
 
             return Recipes;
         }
+
         public string _searchItem;
         public string SearchItem
         {
